@@ -16,17 +16,17 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4">제1조 (목적)</h2>
             <p className="text-gray-700 leading-relaxed">
-              이 약관은 체험단 플랫폼 서비스(이하 "서비스")를 이용함에 있어 당사와 이용자의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.
+              이 약관은 체험단 플랫폼 서비스(이하 &quot;서비스&quot;)를 이용함에 있어 당사와 이용자의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4">제2조 (정의)</h2>
             <div className="text-gray-700 leading-relaxed space-y-2">
-              <p>① "서비스"란 당사가 제공하는 체험단 매칭 플랫폼을 의미합니다.</p>
-              <p>② "회원"이란 당사의 약관에 동의하고 개인정보를 제공하여 회원등록을 한 자를 의미합니다.</p>
-              <p>③ "체험단"이란 기업이 제공하는 제품을 체험하고 리뷰를 작성하는 회원을 의미합니다.</p>
-              <p>④ "기업회원"이란 제품 체험단을 모집하는 기업 또는 개인사업자를 의미합니다.</p>
+              <p>① &quot;서비스&quot;란 당사가 제공하는 체험단 매칭 플랫폼을 의미합니다.</p>
+              <p>② &quot;회원&quot;이란 당사의 약관에 동의하고 개인정보를 제공하여 회원등록을 한 자를 의미합니다.</p>
+              <p>③ &quot;체험단&quot;이란 기업이 제공하는 제품을 체험하고 리뷰를 작성하는 회원을 의미합니다.</p>
+              <p>④ &quot;기업회원&quot;이란 제품 체험단을 모집하는 기업 또는 개인사업자를 의미합니다.</p>
             </div>
           </section>
 

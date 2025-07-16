@@ -57,7 +57,7 @@ export default function PartnershipForm() {
       } else {
         setSubmitStatus('문의 접수 중 오류가 발생했습니다. 다시 시도해주세요.');
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus('문의 접수 중 오류가 발생했습니다. 다시 시도해주세요.');
     } finally {
       setIsSubmitting(false);

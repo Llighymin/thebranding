@@ -2,6 +2,7 @@
 'use client';
 
 import Header from "@/components/Header";
+import Link from "next/link";
 
 export default function HowItWorksPage() {
   const steps = [
@@ -240,18 +241,18 @@ export default function HowItWorksPage() {
             무료 제품 체험과 보상의 기회를 놓치지 마세요
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
+            <Link
               href="/campaigns"
               className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-50 transition-colors whitespace-nowrap cursor-pointer inline-flex items-center justify-center"
             >
               체험단 둘러보기
-            </a>
-            <a
+            </Link>
+            <Link
               href="/"
               className="bg-blue-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-400 transition-colors border-2 border-white/20 whitespace-nowrap cursor-pointer inline-flex items-center justify-center"
             >
               홈으로 돌아가기
-            </a>
+            </Link>
           </div>
         </div>
       </section>

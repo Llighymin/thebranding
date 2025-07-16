@@ -169,7 +169,7 @@ interface CampaignDetailProps {
 
 export default function CampaignDetail({ campaignId }: CampaignDetailProps) {
   const [showApplyModal, setShowApplyModal] = useState(false);
-  const campaign = campaignData[campaignId as keyof typeof campaignData];
+  const campaign = campaignData[campaignId as unknown as keyof typeof campaignData];
 
   if (!campaign) {
     return (
